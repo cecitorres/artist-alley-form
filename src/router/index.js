@@ -23,6 +23,11 @@ const routes = [
     name: 'VIPForm',
     component: () => import('../views/VIPForm.vue'),
   },
+  {
+    path: '/localForm',
+    name: 'localForm',
+    component: () => import('../views/localForm.vue'),
+  },
 ];
 
 const router = new VueRouter({
