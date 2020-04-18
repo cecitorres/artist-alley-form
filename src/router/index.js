@@ -24,6 +24,11 @@ const routes = [
     component: () => import('../views/VIPForm.vue'),
   },
   {
+    path: '/localForm',
+    name: 'localForm',
+    component: () => import('../views/localForm.vue'),
+  },
+  {
     path: '/guestsForm',
     name: 'guestsForm',
     component: () => import('../views/guestsForm.vue'),
