@@ -23,6 +23,11 @@ const routes = [
     name: 'VIPForm',
     component: () => import('../views/VIPForm.vue'),
   },
+  {
+    path: '/guestsForm',
+    name: 'guestsForm',
+    component: () => import('../views/guestsForm.vue'),
+  },
 ];
 
 const router = new VueRouter({
